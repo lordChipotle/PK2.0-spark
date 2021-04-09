@@ -1,0 +1,27 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(BuildingVerification12692,2012-02-14T10:26:18.000Z,2012-02-14T10:26:20.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification23904,2012-02-19T22:37:32.000Z,2012-02-19T22:37:40.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification28161,2012-02-20T23:03:13.000Z,2012-02-20T23:03:20.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification28162,2012-02-20T23:03:22.000Z,2012-02-20T23:03:23.000Z,[prov:type = 'collabmap:BuildingVerification'])
+entity(Building19337.0,[prov:type = 'collabmap:Building'])
+entity(DownVote37522.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(DownVote43895.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(DownVote43896.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(UpVote19338.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote20051.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+used(BuildingVerification12692,Building19337.0,2012-02-14T10:26:18.000Z)
+used(BuildingVerification23904,Building19337.0,2012-02-19T22:37:32.000Z)
+used(BuildingVerification28161,Building19337.0,2012-02-20T23:03:13.000Z)
+used(BuildingVerification28162,Building19337.0,2012-02-20T23:03:22.000Z)
+wasDerivedFrom(DownVote37522.0, Building19337.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(DownVote43895.0, Building19337.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(DownVote43896.0, Building19337.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote19338.0, Building19337.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote20051.0, Building19337.0,[prov:type = 'collabmap:votedOn'])
+wasGeneratedBy(DownVote37522.0,BuildingVerification23904,2012-02-19T22:37:40.000Z)
+wasGeneratedBy(DownVote43895.0,BuildingVerification28161,2012-02-20T23:03:20.000Z)
+wasGeneratedBy(DownVote43896.0,BuildingVerification28162,2012-02-20T23:03:23.000Z)
+wasGeneratedBy(UpVote20051.0,BuildingVerification12692,2012-02-14T10:26:20.000Z)
+endDocument

@@ -1,0 +1,7 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+entity(UpVote31312.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(Building31311.0,[prov:type = 'collabmap:Building'])
+wasDerivedFrom(UpVote31312.0, Building31311.0,[prov:type = 'collabmap:votedOn'])
+endDocument

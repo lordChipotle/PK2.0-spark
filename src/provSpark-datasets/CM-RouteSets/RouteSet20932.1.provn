@@ -1,0 +1,28 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+entity(UpVote60944.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(DownVote60941.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(UpVote60940.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(RouteSet20932.1,[prov:type = 'collabmap:RouteSet'])
+entity(RouteSet20932.2,[prov:type = 'collabmap:RouteSet'])
+entity(Route60942.0,[prov:type = 'collabmap:Route'])
+activity(RouteIdentification39339,2012-06-05T14:32:17.000+01:00,2012-06-05T14:32:26.000+01:00,[prov:type = 'collabmap:RouteIdentification'])
+activity(RouteVerification39337,2012-06-05T14:31:58.000+01:00,2012-06-05T14:32:14.000+01:00,[prov:type = 'collabmap:RouteVerification'])
+activity(CompletionVerification39338,2012-06-05T14:32:14.000+01:00,2012-06-05T14:32:17.000+01:00,[prov:type = 'collabmap:CompletionVerification'])
+wasDerivedFrom(UpVote60944.0, Route60942.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote60944.0, RouteSet20932.1)
+wasDerivedFrom(DownVote60941.0, RouteSet20932.1,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote60940.0, RouteSet20932.1)
+wasDerivedFrom(RouteSet20932.2, RouteSet20932.1,[prov:type = 'prov:Revision'])
+wasDerivedFrom(RouteSet20932.2, Route60942.0,[prov:type = 'collabmap:includes'])
+wasDerivedFrom(Route60942.0, RouteSet20932.1)
+wasGeneratedBy(UpVote60944.0,RouteIdentification39339,2012-06-05T14:32:26.000+01:00)
+wasGeneratedBy(DownVote60941.0,CompletionVerification39338,2012-06-05T14:32:17.000+01:00)
+wasGeneratedBy(UpVote60940.0,RouteVerification39337,2012-06-05T14:32:14.000+01:00)
+wasGeneratedBy(RouteSet20932.2,RouteIdentification39339,2012-06-05T14:32:26.000+01:00)
+wasGeneratedBy(Route60942.0,RouteIdentification39339,2012-06-05T14:32:26.000+01:00)
+used(RouteIdentification39339,RouteSet20932.1,2012-06-05T14:32:17.000+01:00)
+used(RouteVerification39337,RouteSet20932.1,2012-06-05T14:31:58.000+01:00)
+used(CompletionVerification39338,RouteSet20932.1,2012-06-05T14:32:14.000+01:00)
+endDocument

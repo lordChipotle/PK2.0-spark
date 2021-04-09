@@ -1,0 +1,27 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(BuildingVerification19702,2012-02-18T16:03:36.000Z,2012-02-18T16:04:06.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification22362,2012-02-19T21:05:49.000Z,2012-02-19T21:05:51.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification26758,2012-02-20T18:28:43.000Z,2012-02-20T18:29:10.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification26759,2012-02-20T18:29:12.000Z,2012-02-20T18:29:13.000Z,[prov:type = 'collabmap:BuildingVerification'])
+entity(Building31317.0,[prov:type = 'collabmap:Building'])
+entity(DownVote31329.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(UpVote31318.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote35451.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote41982.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote41983.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+used(BuildingVerification19702,Building31317.0,2012-02-18T16:03:36.000Z)
+used(BuildingVerification22362,Building31317.0,2012-02-19T21:05:49.000Z)
+used(BuildingVerification26758,Building31317.0,2012-02-20T18:28:43.000Z)
+used(BuildingVerification26759,Building31317.0,2012-02-20T18:29:12.000Z)
+wasDerivedFrom(DownVote31329.0, Building31317.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote31318.0, Building31317.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote35451.0, Building31317.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote41982.0, Building31317.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote41983.0, Building31317.0,[prov:type = 'collabmap:votedOn'])
+wasGeneratedBy(DownVote31329.0,BuildingVerification19702,2012-02-18T16:04:06.000Z)
+wasGeneratedBy(UpVote35451.0,BuildingVerification22362,2012-02-19T21:05:51.000Z)
+wasGeneratedBy(UpVote41982.0,BuildingVerification26758,2012-02-20T18:29:10.000Z)
+wasGeneratedBy(UpVote41983.0,BuildingVerification26759,2012-02-20T18:29:13.000Z)
+endDocument

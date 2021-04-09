@@ -1,0 +1,17 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(BuildingVerification15089,2012-02-15T22:54:43.000Z,2012-02-15T22:54:46.000Z,[prov:type = 'collabmap:BuildingVerification'])
+activity(BuildingVerification19233,2012-02-18T01:39:25.000Z,2012-02-18T01:39:28.000Z,[prov:type = 'collabmap:BuildingVerification'])
+entity(Building23463.0,[prov:type = 'collabmap:Building'])
+entity(DownVote23889.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(DownVote30168.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(UpVote23464.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+used(BuildingVerification15089,Building23463.0,2012-02-15T22:54:43.000Z)
+used(BuildingVerification19233,Building23463.0,2012-02-18T01:39:25.000Z)
+wasDerivedFrom(DownVote23889.0, Building23463.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(DownVote30168.0, Building23463.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote23464.0, Building23463.0,[prov:type = 'collabmap:votedOn'])
+wasGeneratedBy(DownVote23889.0,BuildingVerification15089,2012-02-15T22:54:46.000Z)
+wasGeneratedBy(DownVote30168.0,BuildingVerification19233,2012-02-18T01:39:28.000Z)
+endDocument

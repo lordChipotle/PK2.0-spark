@@ -1,0 +1,92 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "game:players-53.1",
+      "prov:activity": "game:collectballs16.53"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:pokestops-81.8",
+      "prov:activity": "game:collectballs16.53"
+    }
+  },
+  "activity": {
+    "game:collectballs16.53": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-53.1",
+      "prov:usedEntity": "game:pokestops-81.7",
+      "prov:activity": "game:collectballs16.53"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:pokestops-81.8",
+      "prov:usedEntity": "game:players-53.0",
+      "prov:activity": "game:collectballs16.53"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokestops-81.8",
+      "prov:usedEntity": "game:pokestops-81.7",
+      "prov:activity": "game:collectballs16.53"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-53.1",
+      "prov:usedEntity": "game:players-53.0",
+      "prov:activity": "game:collectballs16.53"
+    }
+  },
+  "used": {
+    "_:u2": {
+      "prov:entity": "game:pokestops-81.7",
+      "prov:activity": "game:collectballs16.53"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-53.0",
+      "prov:activity": "game:collectballs16.53"
+    }
+  },
+  "entity": {
+    "game:players-53.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Valor",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-53.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Valor",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.7": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.8": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

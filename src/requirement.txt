@@ -1,0 +1,26 @@
+# Data processing
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+jupyter
+
+# Provenance
+prov[dot]
+powerlaw
+
+# Spark
+pyspark
+graphframe
+
+# ML packages
+mllib
+
+# Utilities
+environs
+click
+requests
+
+
+

@@ -1,0 +1,92 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "game:players-58.1",
+      "prov:activity": "game:collectballs13.58"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:pokestops-89.11",
+      "prov:activity": "game:collectballs13.58"
+    }
+  },
+  "activity": {
+    "game:collectballs13.58": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-58.1",
+      "prov:usedEntity": "game:pokestops-89.10",
+      "prov:activity": "game:collectballs13.58"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:pokestops-89.11",
+      "prov:usedEntity": "game:players-58.0",
+      "prov:activity": "game:collectballs13.58"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokestops-89.11",
+      "prov:usedEntity": "game:pokestops-89.10",
+      "prov:activity": "game:collectballs13.58"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-58.1",
+      "prov:usedEntity": "game:players-58.0",
+      "prov:activity": "game:collectballs13.58"
+    }
+  },
+  "used": {
+    "_:u2": {
+      "prov:entity": "game:pokestops-89.10",
+      "prov:activity": "game:collectballs13.58"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-58.0",
+      "prov:activity": "game:collectballs13.58"
+    }
+  },
+  "entity": {
+    "game:pokestops-89.11": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-89.10": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-58.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-58.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

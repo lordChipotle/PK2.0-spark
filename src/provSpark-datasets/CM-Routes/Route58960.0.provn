@@ -1,0 +1,9 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+entity(RouteSet7383.2,[prov:type = 'collabmap:RouteSet'])
+entity(UpVote58962.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(Route58960.0,[prov:type = 'collabmap:Route'])
+wasDerivedFrom(RouteSet7383.2, Route58960.0,[prov:type = 'collabmap:includes'])
+wasDerivedFrom(UpVote58962.0, Route58960.0,[prov:type = 'collabmap:votedOn'])
+endDocument

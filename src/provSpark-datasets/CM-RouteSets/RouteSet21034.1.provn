@@ -1,0 +1,28 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(CompletionVerification39306,2012-04-08T22:10:38.000+01:00,2012-04-08T22:10:42.000+01:00,[prov:type = 'collabmap:CompletionVerification'])
+activity(RouteIdentification39307,2012-04-08T22:10:42.000+01:00,2012-04-08T22:11:09.000+01:00,[prov:type = 'collabmap:RouteIdentification'])
+activity(RouteVerification39305,2012-04-08T22:10:02.000+01:00,2012-04-08T22:10:38.000+01:00,[prov:type = 'collabmap:RouteVerification'])
+entity(DownVote60882.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(RouteSet21034.2,[prov:type = 'collabmap:RouteSet'])
+entity(UpVote60881.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote60885.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(RouteSet21034.1,[prov:type = 'collabmap:RouteSet'])
+entity(Route60883.0,[prov:type = 'collabmap:Route'])
+used(CompletionVerification39306,RouteSet21034.1,2012-04-08T22:10:38.000+01:00)
+used(RouteIdentification39307,RouteSet21034.1,2012-04-08T22:10:42.000+01:00)
+used(RouteVerification39305,RouteSet21034.1,2012-04-08T22:10:02.000+01:00)
+wasDerivedFrom(DownVote60882.0, RouteSet21034.1,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(RouteSet21034.2, RouteSet21034.1,[prov:type = 'prov:Revision'])
+wasDerivedFrom(RouteSet21034.2, Route60883.0,[prov:type = 'collabmap:includes'])
+wasDerivedFrom(UpVote60881.0, RouteSet21034.1)
+wasDerivedFrom(UpVote60885.0, Route60883.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote60885.0, RouteSet21034.1)
+wasDerivedFrom(Route60883.0, RouteSet21034.1)
+wasGeneratedBy(DownVote60882.0,CompletionVerification39306,2012-04-08T22:10:42.000+01:00)
+wasGeneratedBy(RouteSet21034.2,RouteIdentification39307,2012-04-08T22:11:09.000+01:00)
+wasGeneratedBy(UpVote60881.0,RouteVerification39305,2012-04-08T22:10:38.000+01:00)
+wasGeneratedBy(UpVote60885.0,RouteIdentification39307,2012-04-08T22:11:09.000+01:00)
+wasGeneratedBy(Route60883.0,RouteIdentification39307,2012-04-08T22:11:09.000+01:00)
+endDocument

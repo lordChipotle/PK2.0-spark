@@ -1,0 +1,150 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB3": {
+      "prov:entity": "game:players-43.2",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:wGB4": {
+      "prov:entity": "game:pokestops-81.13",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:wGB1": {
+      "prov:entity": "game:players-43.1",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:pokestops-81.12",
+      "prov:activity": "game:collectballs19.43"
+    }
+  },
+  "activity": {
+    "game:collectballs20.43": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs19.43": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-43.1",
+      "prov:usedEntity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:pokestops-81.12",
+      "prov:usedEntity": "game:players-43.0",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokestops-81.12",
+      "prov:usedEntity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:wDF5": {
+      "prov:generatedEntity": "game:players-43.2",
+      "prov:usedEntity": "game:players-43.1",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-43.1",
+      "prov:usedEntity": "game:players-43.0",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:wDF6": {
+      "prov:generatedEntity": "game:players-43.2",
+      "prov:usedEntity": "game:pokestops-81.12",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:wDF7": {
+      "prov:generatedEntity": "game:pokestops-81.13",
+      "prov:usedEntity": "game:players-43.1",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:wDF8": {
+      "prov:generatedEntity": "game:pokestops-81.13",
+      "prov:usedEntity": "game:pokestops-81.12",
+      "prov:activity": "game:collectballs20.43"
+    }
+  },
+  "used": {
+    "_:u2": {
+      "prov:entity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs19.43"
+    },
+    "_:u3": {
+      "prov:entity": "game:players-43.1",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:u4": {
+      "prov:entity": "game:pokestops-81.12",
+      "prov:activity": "game:collectballs20.43"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-43.0",
+      "prov:activity": "game:collectballs19.43"
+    }
+  },
+  "entity": {
+    "game:players-43.2": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-43.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-43.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.13": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.12": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.11": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

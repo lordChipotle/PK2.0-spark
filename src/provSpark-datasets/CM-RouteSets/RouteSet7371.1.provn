@@ -1,0 +1,28 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(RouteIdentification37243,2012-02-24T09:03:09.000Z,2012-02-24T09:03:23.000Z,[prov:type = 'collabmap:RouteIdentification'])
+activity(CompletionVerification37242,2012-02-24T09:03:07.000Z,2012-02-24T09:03:09.000Z,[prov:type = 'collabmap:CompletionVerification'])
+activity(RouteVerification37241,2012-02-24T09:02:51.000Z,2012-02-24T09:03:07.000Z,[prov:type = 'collabmap:RouteVerification'])
+entity(Route57421.0,[prov:type = 'collabmap:Route'])
+entity(UpVote57419.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(RouteSet7371.1,[prov:type = 'collabmap:RouteSet'])
+entity(RouteSet7371.2,[prov:type = 'collabmap:RouteSet'])
+entity(UpVote57423.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(DownVote57420.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+used(RouteIdentification37243,RouteSet7371.1,2012-02-24T09:03:09.000Z)
+used(CompletionVerification37242,RouteSet7371.1,2012-02-24T09:03:07.000Z)
+used(RouteVerification37241,RouteSet7371.1,2012-02-24T09:02:51.000Z)
+wasDerivedFrom(Route57421.0, RouteSet7371.1)
+wasDerivedFrom(UpVote57419.0, RouteSet7371.1)
+wasDerivedFrom(RouteSet7371.2, RouteSet7371.1,[prov:type = 'prov:Revision'])
+wasDerivedFrom(RouteSet7371.2, Route57421.0,[prov:type = 'collabmap:includes'])
+wasDerivedFrom(UpVote57423.0, Route57421.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote57423.0, RouteSet7371.1)
+wasDerivedFrom(DownVote57420.0, RouteSet7371.1,[prov:type = 'collabmap:votedOn'])
+wasGeneratedBy(Route57421.0,RouteIdentification37243,2012-02-24T09:03:23.000Z)
+wasGeneratedBy(UpVote57419.0,RouteVerification37241,2012-02-24T09:03:07.000Z)
+wasGeneratedBy(RouteSet7371.2,RouteIdentification37243,2012-02-24T09:03:23.000Z)
+wasGeneratedBy(UpVote57423.0,RouteIdentification37243,2012-02-24T09:03:23.000Z)
+wasGeneratedBy(DownVote57420.0,CompletionVerification37242,2012-02-24T09:03:09.000Z)
+endDocument

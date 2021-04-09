@@ -1,0 +1,1137 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB11": {
+      "prov:entity": "game:pokemons-719.1",
+      "prov:role": {
+        "$": "pgo:Picked",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture2102"
+    },
+    "_:wGB10": {
+      "prov:entity": "game:players-57.13",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture2102"
+    },
+    "_:wGB31": {
+      "prov:entity": "game:pokestops-76.24",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wGB30": {
+      "prov:entity": "game:players-57.15",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wGB19": {
+      "prov:entity": "game:pokestops-76.13",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wGB18": {
+      "prov:entity": "game:players-57.6",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wGB17": {
+      "prov:entity": "game:pokestops-76.12",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wGB16": {
+      "prov:entity": "game:players-57.5",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wGB15": {
+      "prov:entity": "game:pokestops-76.9",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:wGB14": {
+      "prov:entity": "game:players-57.3",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:wGB13": {
+      "prov:entity": "game:pokestops-76.1",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wGB12": {
+      "prov:entity": "game:players-57.1",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wGB3": {
+      "prov:entity": "game:pokemons-232.1",
+      "prov:role": {
+        "$": "pgo:Picked",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture640"
+    },
+    "_:wGB4": {
+      "prov:entity": "game:players-57.4",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture888"
+    },
+    "_:wGB5": {
+      "prov:entity": "game:pokemons-323.1",
+      "prov:role": {
+        "$": "pgo:Picked",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture888"
+    },
+    "_:wGB6": {
+      "prov:entity": "game:players-57.9",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1286"
+    },
+    "_:wGB1": {
+      "prov:entity": "game:players-57.16",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:dispose2713"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:players-57.2",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture640"
+    },
+    "_:wGB22": {
+      "prov:entity": "game:players-57.8",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:wGB21": {
+      "prov:entity": "game:pokestops-76.14",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wGB20": {
+      "prov:entity": "game:players-57.7",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wGB7": {
+      "prov:entity": "game:pokemons-438.1",
+      "prov:role": {
+        "$": "pgo:Picked",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1286"
+    },
+    "_:wGB8": {
+      "prov:entity": "game:players-57.12",
+      "prov:role": {
+        "$": "pgo:Picker",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1405"
+    },
+    "_:wGB9": {
+      "prov:entity": "game:pokemons-500.1",
+      "prov:role": {
+        "$": "pgo:Picked",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1405"
+    },
+    "_:wGB29": {
+      "prov:entity": "game:pokestops-76.23",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wGB28": {
+      "prov:entity": "game:players-57.14",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wGB27": {
+      "prov:entity": "game:pokestops-76.18",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wGB26": {
+      "prov:entity": "game:players-57.11",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wGB25": {
+      "prov:entity": "game:pokestops-76.17",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wGB24": {
+      "prov:entity": "game:players-57.10",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wGB23": {
+      "prov:entity": "game:pokestops-76.15",
+      "prov:activity": "game:collectballs897.57"
+    }
+  },
+  "wasInvalidatedBy": {
+    "_:wIB1": {
+      "prov:entity": "game:pokemons-232.1",
+      "prov:activity": "game:dispose2713"
+    }
+  },
+  "activity": {
+    "game:capture1286": {
+      "prov:type": {
+        "$": "pgo:PokemonCapture",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:capture2102": {
+      "prov:type": {
+        "$": "pgo:PokemonCapture",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs894.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs897.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs7.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs895.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs896.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:capture888": {
+      "prov:type": {
+        "$": "pgo:PokemonCapture",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs2110.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs1296.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs1295.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs2109.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs719.57": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:capture640": {
+      "prov:type": {
+        "$": "pgo:PokemonCapture",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:capture1405": {
+      "prov:type": {
+        "$": "pgo:PokemonCapture",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:dispose2713": {
+      "prov:type": {
+        "$": "pgo:PokemonDispose",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF43": {
+      "prov:generatedEntity": "game:players-57.8",
+      "prov:usedEntity": "game:pokestops-76.14",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:wDF42": {
+      "prov:generatedEntity": "game:players-57.8",
+      "prov:usedEntity": "game:players-57.7",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:wDF45": {
+      "prov:generatedEntity": "game:pokestops-76.15",
+      "prov:usedEntity": "game:pokestops-76.14",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:wDF44": {
+      "prov:generatedEntity": "game:pokestops-76.15",
+      "prov:usedEntity": "game:players-57.7",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:wDF41": {
+      "prov:generatedEntity": "game:pokestops-76.14",
+      "prov:usedEntity": "game:pokestops-76.13",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wDF40": {
+      "prov:generatedEntity": "game:pokestops-76.14",
+      "prov:usedEntity": "game:players-57.6",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wDF39": {
+      "prov:generatedEntity": "game:players-57.7",
+      "prov:usedEntity": "game:pokestops-76.13",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wDF36": {
+      "prov:generatedEntity": "game:pokestops-76.13",
+      "prov:usedEntity": "game:players-57.5",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wDF35": {
+      "prov:generatedEntity": "game:players-57.6",
+      "prov:usedEntity": "game:pokestops-76.12",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wDF38": {
+      "prov:generatedEntity": "game:players-57.7",
+      "prov:usedEntity": "game:players-57.6",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:wDF37": {
+      "prov:generatedEntity": "game:pokestops-76.13",
+      "prov:usedEntity": "game:pokestops-76.12",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wDF10": {
+      "prov:generatedEntity": "game:players-57.9",
+      "prov:usedEntity": "game:players-57.8",
+      "prov:activity": "game:capture1286"
+    },
+    "_:wDF54": {
+      "prov:generatedEntity": "game:players-57.14",
+      "prov:usedEntity": "game:players-57.13",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wDF53": {
+      "prov:generatedEntity": "game:pokestops-76.18",
+      "prov:usedEntity": "game:pokestops-76.17",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wDF12": {
+      "prov:generatedEntity": "game:pokemons-438.1",
+      "prov:usedEntity": "game:players-57.8",
+      "prov:activity": "game:capture1286"
+    },
+    "_:wDF56": {
+      "prov:generatedEntity": "game:pokestops-76.23",
+      "prov:usedEntity": "game:players-57.13",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wDF11": {
+      "prov:generatedEntity": "game:players-57.9",
+      "prov:usedEntity": "game:pokemons-438.0",
+      "prov:activity": "game:capture1286"
+    },
+    "_:wDF55": {
+      "prov:generatedEntity": "game:players-57.14",
+      "prov:usedEntity": "game:pokestops-76.22",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wDF50": {
+      "prov:generatedEntity": "game:players-57.11",
+      "prov:usedEntity": "game:players-57.10",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wDF52": {
+      "prov:generatedEntity": "game:pokestops-76.18",
+      "prov:usedEntity": "game:players-57.10",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wDF51": {
+      "prov:generatedEntity": "game:players-57.11",
+      "prov:usedEntity": "game:pokestops-76.17",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:wDF47": {
+      "prov:generatedEntity": "game:players-57.10",
+      "prov:usedEntity": "game:pokestops-76.16",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wDF46": {
+      "prov:generatedEntity": "game:players-57.10",
+      "prov:usedEntity": "game:players-57.9",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wDF49": {
+      "prov:generatedEntity": "game:pokestops-76.17",
+      "prov:usedEntity": "game:pokestops-76.16",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wDF48": {
+      "prov:generatedEntity": "game:pokestops-76.17",
+      "prov:usedEntity": "game:players-57.9",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:wDF21": {
+      "prov:generatedEntity": "game:pokemons-719.1",
+      "prov:usedEntity": "game:pokemons-719.0",
+      "prov:activity": "game:capture2102"
+    },
+    "_:wDF20": {
+      "prov:generatedEntity": "game:pokemons-719.1",
+      "prov:usedEntity": "game:players-57.12",
+      "prov:activity": "game:capture2102"
+    },
+    "_:wDF23": {
+      "prov:generatedEntity": "game:players-57.1",
+      "prov:usedEntity": "game:pokestops-76.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wDF22": {
+      "prov:generatedEntity": "game:players-57.1",
+      "prov:usedEntity": "game:players-57.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wDF61": {
+      "prov:generatedEntity": "game:pokestops-76.24",
+      "prov:usedEntity": "game:pokestops-76.23",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wDF60": {
+      "prov:generatedEntity": "game:pokestops-76.24",
+      "prov:usedEntity": "game:players-57.14",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-57.2",
+      "prov:usedEntity": "game:players-57.1",
+      "prov:activity": "game:capture640"
+    },
+    "_:wDF18": {
+      "prov:generatedEntity": "game:players-57.13",
+      "prov:usedEntity": "game:players-57.12",
+      "prov:activity": "game:capture2102"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:players-57.2",
+      "prov:usedEntity": "game:pokemons-232.0",
+      "prov:activity": "game:capture640"
+    },
+    "_:wDF17": {
+      "prov:generatedEntity": "game:pokemons-500.1",
+      "prov:usedEntity": "game:pokemons-500.0",
+      "prov:activity": "game:capture1405"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokemons-232.1",
+      "prov:usedEntity": "game:players-57.1",
+      "prov:activity": "game:capture640"
+    },
+    "_:wDF5": {
+      "prov:generatedEntity": "game:pokemons-232.1",
+      "prov:usedEntity": "game:pokemons-232.0",
+      "prov:activity": "game:capture640"
+    },
+    "_:wDF19": {
+      "prov:generatedEntity": "game:players-57.13",
+      "prov:usedEntity": "game:pokemons-719.0",
+      "prov:activity": "game:capture2102"
+    },
+    "_:wDF14": {
+      "prov:generatedEntity": "game:players-57.12",
+      "prov:usedEntity": "game:players-57.11",
+      "prov:activity": "game:capture1405"
+    },
+    "_:wDF58": {
+      "prov:generatedEntity": "game:players-57.15",
+      "prov:usedEntity": "game:players-57.14",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wDF13": {
+      "prov:generatedEntity": "game:pokemons-438.1",
+      "prov:usedEntity": "game:pokemons-438.0",
+      "prov:activity": "game:capture1286"
+    },
+    "_:wDF57": {
+      "prov:generatedEntity": "game:pokestops-76.23",
+      "prov:usedEntity": "game:pokestops-76.22",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:wDF16": {
+      "prov:generatedEntity": "game:pokemons-500.1",
+      "prov:usedEntity": "game:players-57.11",
+      "prov:activity": "game:capture1405"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-57.16",
+      "prov:usedEntity": "game:players-57.15",
+      "prov:activity": "game:dispose2713"
+    },
+    "_:wDF15": {
+      "prov:generatedEntity": "game:players-57.12",
+      "prov:usedEntity": "game:pokemons-500.0",
+      "prov:activity": "game:capture1405"
+    },
+    "_:wDF59": {
+      "prov:generatedEntity": "game:players-57.15",
+      "prov:usedEntity": "game:pokestops-76.23",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:wDF6": {
+      "prov:generatedEntity": "game:players-57.4",
+      "prov:usedEntity": "game:players-57.3",
+      "prov:activity": "game:capture888"
+    },
+    "_:wDF7": {
+      "prov:generatedEntity": "game:players-57.4",
+      "prov:usedEntity": "game:pokemons-323.0",
+      "prov:activity": "game:capture888"
+    },
+    "_:wDF8": {
+      "prov:generatedEntity": "game:pokemons-323.1",
+      "prov:usedEntity": "game:players-57.3",
+      "prov:activity": "game:capture888"
+    },
+    "_:wDF9": {
+      "prov:generatedEntity": "game:pokemons-323.1",
+      "prov:usedEntity": "game:pokemons-323.0",
+      "prov:activity": "game:capture888"
+    },
+    "_:wDF32": {
+      "prov:generatedEntity": "game:pokestops-76.12",
+      "prov:usedEntity": "game:players-57.4",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wDF31": {
+      "prov:generatedEntity": "game:players-57.5",
+      "prov:usedEntity": "game:pokestops-76.11",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wDF34": {
+      "prov:generatedEntity": "game:players-57.6",
+      "prov:usedEntity": "game:players-57.5",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:wDF33": {
+      "prov:generatedEntity": "game:pokestops-76.12",
+      "prov:usedEntity": "game:pokestops-76.11",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wDF30": {
+      "prov:generatedEntity": "game:players-57.5",
+      "prov:usedEntity": "game:players-57.4",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:wDF29": {
+      "prov:generatedEntity": "game:pokestops-76.9",
+      "prov:usedEntity": "game:pokestops-76.8",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:wDF28": {
+      "prov:generatedEntity": "game:pokestops-76.9",
+      "prov:usedEntity": "game:players-57.2",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:wDF25": {
+      "prov:generatedEntity": "game:pokestops-76.1",
+      "prov:usedEntity": "game:pokestops-76.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wDF24": {
+      "prov:generatedEntity": "game:pokestops-76.1",
+      "prov:usedEntity": "game:players-57.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:wDF27": {
+      "prov:generatedEntity": "game:players-57.3",
+      "prov:usedEntity": "game:pokestops-76.8",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:wDF26": {
+      "prov:generatedEntity": "game:players-57.3",
+      "prov:usedEntity": "game:players-57.2",
+      "prov:activity": "game:collectballs719.57"
+    }
+  },
+  "used": {
+    "_:u26": {
+      "prov:entity": "game:pokestops-76.16",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:u27": {
+      "prov:entity": "game:players-57.10",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:u24": {
+      "prov:entity": "game:pokestops-76.14",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:u25": {
+      "prov:entity": "game:players-57.9",
+      "prov:activity": "game:collectballs1295.57"
+    },
+    "_:u22": {
+      "prov:entity": "game:pokestops-76.13",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:u23": {
+      "prov:entity": "game:players-57.7",
+      "prov:activity": "game:collectballs897.57"
+    },
+    "_:u20": {
+      "prov:entity": "game:pokestops-76.12",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:u21": {
+      "prov:entity": "game:players-57.6",
+      "prov:activity": "game:collectballs896.57"
+    },
+    "_:u19": {
+      "prov:entity": "game:players-57.5",
+      "prov:activity": "game:collectballs895.57"
+    },
+    "_:u17": {
+      "prov:entity": "game:players-57.4",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:u18": {
+      "prov:entity": "game:pokestops-76.11",
+      "prov:activity": "game:collectballs894.57"
+    },
+    "_:u30": {
+      "prov:entity": "game:pokestops-76.22",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:u15": {
+      "prov:entity": "game:players-57.2",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:u16": {
+      "prov:entity": "game:pokestops-76.8",
+      "prov:activity": "game:collectballs719.57"
+    },
+    "_:u13": {
+      "prov:entity": "game:players-57.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:u14": {
+      "prov:entity": "game:pokestops-76.0",
+      "prov:activity": "game:collectballs7.57"
+    },
+    "_:u11": {
+      "prov:entity": "game:players-57.12",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture2102"
+    },
+    "_:u12": {
+      "prov:entity": "game:pokemons-719.0",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture2102"
+    },
+    "_:u31": {
+      "prov:entity": "game:players-57.14",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:u10": {
+      "prov:entity": "game:pokemons-500.0",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1405"
+    },
+    "_:u32": {
+      "prov:entity": "game:pokestops-76.23",
+      "prov:activity": "game:collectballs2110.57"
+    },
+    "_:u6": {
+      "prov:entity": "game:pokemons-323.0",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture888"
+    },
+    "_:u7": {
+      "prov:entity": "game:players-57.8",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1286"
+    },
+    "_:u8": {
+      "prov:entity": "game:pokemons-438.0",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1286"
+    },
+    "_:u9": {
+      "prov:entity": "game:players-57.11",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture1405"
+    },
+    "_:u2": {
+      "prov:entity": "game:pokemons-232.1",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:dispose2713"
+    },
+    "_:u3": {
+      "prov:entity": "game:players-57.1",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture640"
+    },
+    "_:u4": {
+      "prov:entity": "game:pokemons-232.0",
+      "prov:role": {
+        "$": "pgo:Pokemon",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture640"
+    },
+    "_:u28": {
+      "prov:entity": "game:pokestops-76.17",
+      "prov:activity": "game:collectballs1296.57"
+    },
+    "_:u5": {
+      "prov:entity": "game:players-57.3",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:capture888"
+    },
+    "_:u29": {
+      "prov:entity": "game:players-57.13",
+      "prov:activity": "game:collectballs2109.57"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-57.15",
+      "prov:role": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "game:dispose2713"
+    }
+  },
+  "entity": {
+    "game:pokemons-438.0": {
+      "prov:type": {
+        "$": "pgo:PokemonStrong",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "2351",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "70",
+        "type": "xsd:int"
+      }
+    },
+    "game:pokestops-76.8": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-438.1": {
+      "prov:type": {
+        "$": "pgo:PokemonStrong",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.9": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.16": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.16": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.15": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.15": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.14": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.14": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.13": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.12": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.13": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-500.1": {
+      "prov:type": {
+        "$": "pgo:PokemonNormal",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.11": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.12": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-500.0": {
+      "prov:type": {
+        "$": "pgo:PokemonNormal",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "1393",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "98",
+        "type": "xsd:int"
+      }
+    },
+    "game:players-57.11": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.10": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-719.0": {
+      "prov:type": {
+        "$": "pgo:PokemonWeak",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "752",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "10",
+        "type": "xsd:int"
+      }
+    },
+    "game:pokemons-719.1": {
+      "prov:type": {
+        "$": "pgo:PokemonWeak",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.18": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.17": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.8": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.7": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.6": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.5": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.4": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.3": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.2": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-232.0": {
+      "prov:type": {
+        "$": "pgo:PokemonWeak",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "464",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "40",
+        "type": "xsd:int"
+      }
+    },
+    "game:pokemons-232.1": {
+      "prov:type": {
+        "$": "pgo:PokemonWeak",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "464",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "40",
+        "type": "xsd:int"
+      }
+    },
+    "game:pokestops-76.24": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.0": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.23": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.1": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-76.22": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-57.9": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Instinct",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokemons-323.0": {
+      "prov:type": {
+        "$": "pgo:PokemonStrong",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:strength": {
+        "$": "2690",
+        "type": "xsd:int"
+      },
+      "pgo:species": {
+        "$": "115",
+        "type": "xsd:int"
+      }
+    },
+    "game:pokemons-323.1": {
+      "prov:type": {
+        "$": "pgo:PokemonStrong",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB1": {
+      "prov:entity": "game:players-59.1",
+      "prov:activity": "game:collectballs9.59"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:pokestops-83.6",
+      "prov:activity": "game:collectballs9.59"
+    }
+  },
+  "activity": {
+    "game:collectballs9.59": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-59.1",
+      "prov:usedEntity": "game:pokestops-83.5",
+      "prov:activity": "game:collectballs9.59"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:pokestops-83.6",
+      "prov:usedEntity": "game:players-59.0",
+      "prov:activity": "game:collectballs9.59"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokestops-83.6",
+      "prov:usedEntity": "game:pokestops-83.5",
+      "prov:activity": "game:collectballs9.59"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-59.1",
+      "prov:usedEntity": "game:players-59.0",
+      "prov:activity": "game:collectballs9.59"
+    }
+  },
+  "used": {
+    "_:u2": {
+      "prov:entity": "game:pokestops-83.5",
+      "prov:activity": "game:collectballs9.59"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-59.0",
+      "prov:activity": "game:collectballs9.59"
+    }
+  },
+  "entity": {
+    "game:pokestops-83.5": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-83.6": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-59.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Valor",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-59.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Valor",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

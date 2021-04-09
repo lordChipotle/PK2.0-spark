@@ -1,0 +1,15 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+entity(UpVote37719.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(UpVote37718.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(RouteSet25052.1,[prov:type = 'collabmap:RouteSet'])
+activity(RouteVerification24086,2012-02-19T22:44:48.000Z,2012-02-19T22:44:51.000Z,[prov:type = 'collabmap:RouteVerification'])
+activity(CompletionVerification24087,2012-02-19T22:44:51.000Z,2012-02-19T22:44:52.000Z,[prov:type = 'collabmap:CompletionVerification'])
+wasDerivedFrom(UpVote37719.0, RouteSet25052.1,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote37718.0, RouteSet25052.1)
+wasGeneratedBy(UpVote37719.0,CompletionVerification24087,2012-02-19T22:44:52.000Z)
+wasGeneratedBy(UpVote37718.0,RouteVerification24086,2012-02-19T22:44:51.000Z)
+used(RouteVerification24086,RouteSet25052.1,2012-02-19T22:44:48.000Z)
+used(CompletionVerification24087,RouteSet25052.1,2012-02-19T22:44:51.000Z)
+endDocument

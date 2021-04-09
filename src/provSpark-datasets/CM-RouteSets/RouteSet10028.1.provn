@@ -1,0 +1,28 @@
+document
+default <http://www.collabmap.org/data/local/20140716/>
+prefix collabmap <http://www.orchid.ac.uk/ontologies/collabmap.owl#>
+activity(RouteIdentification38818,2012-03-04T21:24:57.000Z,2012-03-04T21:25:13.000Z,[prov:type = 'collabmap:RouteIdentification'])
+activity(CompletionVerification38817,2012-03-04T21:24:55.000Z,2012-03-04T21:24:57.000Z,[prov:type = 'collabmap:CompletionVerification'])
+activity(RouteVerification38816,2012-03-04T21:24:24.000Z,2012-03-04T21:24:55.000Z,[prov:type = 'collabmap:RouteVerification'])
+entity(DownVote60170.0,[prov:type = 'collabmap:Vote', prov:value = "-1" %% xsd:int])
+entity(RouteSet10028.2,[prov:type = 'collabmap:RouteSet'])
+entity(RouteSet10028.1,[prov:type = 'collabmap:RouteSet'])
+entity(UpVote60173.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+entity(Route60171.0,[prov:type = 'collabmap:Route'])
+entity(UpVote60169.0,[prov:type = 'collabmap:Vote', prov:value = "1" %% xsd:int])
+used(RouteIdentification38818,RouteSet10028.1,2012-03-04T21:24:57.000Z)
+used(CompletionVerification38817,RouteSet10028.1,2012-03-04T21:24:55.000Z)
+used(RouteVerification38816,RouteSet10028.1,2012-03-04T21:24:24.000Z)
+wasDerivedFrom(DownVote60170.0, RouteSet10028.1,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(RouteSet10028.2, RouteSet10028.1,[prov:type = 'prov:Revision'])
+wasDerivedFrom(RouteSet10028.2, Route60171.0,[prov:type = 'collabmap:includes'])
+wasDerivedFrom(UpVote60173.0, Route60171.0,[prov:type = 'collabmap:votedOn'])
+wasDerivedFrom(UpVote60173.0, RouteSet10028.1)
+wasDerivedFrom(Route60171.0, RouteSet10028.1)
+wasDerivedFrom(UpVote60169.0, RouteSet10028.1)
+wasGeneratedBy(DownVote60170.0,CompletionVerification38817,2012-03-04T21:24:57.000Z)
+wasGeneratedBy(RouteSet10028.2,RouteIdentification38818,2012-03-04T21:25:13.000Z)
+wasGeneratedBy(UpVote60173.0,RouteIdentification38818,2012-03-04T21:25:13.000Z)
+wasGeneratedBy(Route60171.0,RouteIdentification38818,2012-03-04T21:25:13.000Z)
+wasGeneratedBy(UpVote60169.0,RouteVerification38816,2012-03-04T21:24:55.000Z)
+endDocument

@@ -1,0 +1,156 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB3": {
+      "prov:entity": "game:players-71.2",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:wGB4": {
+      "prov:entity": "game:pokestops-81.12",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:wGB1": {
+      "prov:entity": "game:players-71.1",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:wGB2": {
+      "prov:entity": "game:pokestops-81.9",
+      "prov:activity": "game:collectballs8.71"
+    }
+  },
+  "activity": {
+    "game:collectballs9.71": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:collectballs8.71": {
+      "prov:type": {
+        "$": "pgo:BallCollection",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "game": "http://sociam.org/pokemongo-game#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pgo": "http://sociam.org/pokemongo#"
+  },
+  "wasDerivedFrom": {
+    "_:wDF2": {
+      "prov:generatedEntity": "game:players-71.1",
+      "prov:usedEntity": "game:pokestops-81.8",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:wDF3": {
+      "prov:generatedEntity": "game:pokestops-81.9",
+      "prov:usedEntity": "game:players-71.0",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:wDF4": {
+      "prov:generatedEntity": "game:pokestops-81.9",
+      "prov:usedEntity": "game:pokestops-81.8",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:wDF5": {
+      "prov:generatedEntity": "game:players-71.2",
+      "prov:usedEntity": "game:players-71.1",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:wDF1": {
+      "prov:generatedEntity": "game:players-71.1",
+      "prov:usedEntity": "game:players-71.0",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:wDF6": {
+      "prov:generatedEntity": "game:players-71.2",
+      "prov:usedEntity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:wDF7": {
+      "prov:generatedEntity": "game:pokestops-81.12",
+      "prov:usedEntity": "game:players-71.1",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:wDF8": {
+      "prov:generatedEntity": "game:pokestops-81.12",
+      "prov:usedEntity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs9.71"
+    }
+  },
+  "used": {
+    "_:u2": {
+      "prov:entity": "game:pokestops-81.8",
+      "prov:activity": "game:collectballs8.71"
+    },
+    "_:u3": {
+      "prov:entity": "game:players-71.1",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:u4": {
+      "prov:entity": "game:pokestops-81.11",
+      "prov:activity": "game:collectballs9.71"
+    },
+    "_:u1": {
+      "prov:entity": "game:players-71.0",
+      "prov:activity": "game:collectballs8.71"
+    }
+  },
+  "entity": {
+    "game:players-71.0": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-71.1": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:players-71.2": {
+      "prov:type": {
+        "$": "pgo:Player",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "pgo:team": {
+        "$": "pgo:Mystic",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.12": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.8": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.9": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    },
+    "game:pokestops-81.11": {
+      "prov:type": {
+        "$": "pgo:Pokestop",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

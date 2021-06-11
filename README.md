@@ -1,7 +1,7 @@
 # Spark-based Provenance Kernel
 
-
-
+A detailed report on this project can be found here: https://drive.google.com/file/d/1rlDwVg5ti06jB2yXWnob2YXnjJXyI_6c/view?usp=sharing
+----------------------------------------------------------------------------------------------------------------------
 Data collecting
 
 The data we used are published by @trungdong at https://github.com/trungdong/provenance-kernel-evaluation

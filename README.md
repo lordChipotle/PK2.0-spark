@@ -2,14 +2,14 @@
 
 A detailed report on this project can be found here: https://drive.google.com/file/d/1rlDwVg5ti06jB2yXWnob2YXnjJXyI_6c/view?usp=sharing
 ----------------------------------------------------------------------------------------------------------------------
-Data collecting
+Data collection:
 
 The data we used are published by @trungdong at https://github.com/trungdong/provenance-kernel-evaluation
 
 The directories should be unzipped and placed in the folder provSpark-datasets for the program to run.
 
-
-1. Running on the Cloud with Databricks:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 1. Running on the Cloud with Databricks:
 * Sign up or sign into a standard Databricks account, configure the AWS workplace environments and storage bucket set up following this tutorial:https://docs.databricks.com/getting-started/account-setup.html
 * Set up a cluster with the most recent version of Apache Spark environment.
 * Once the cluster is set up, install graphframes packages matching the Apache Spark environment, then the most recent version of MLlib and prov
@@ -20,8 +20,8 @@ The directories should be unzipped and placed in the folder provSpark-datasets f
 	* import **provspark-motif-finding.ipynb** for a demo in motif-finding algorithm 
 	* import **prov-spark-ml** to start the machine learning process and reproduce or generate similar results to experiment 2 and assessment 2 from the report
 	* import **performance-comparison** to conduct runtime analysis and generate results similar to experiment 1 and assessment 1.
-
-2. Running on local machines:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 2. Running on local machines:
 * Run **pip install -r requirements.txt** to install all packages requirements
 * Run **python reproduce_data.py** if the intent is to run machine learning part of the project only (skipping the long waiting of training data generation)
 * Navigates to the motiffinding folder using cd command and run **python gen-training-data-motif.py** to generate sparse matrices(training data) with motif finding algorithm
